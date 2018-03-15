@@ -1,0 +1,160 @@
+*, * ::before, * ::after {
+     box-sizing: border-box;
+}
+ body {
+     font-family: 'Roboto', sans-serif;
+     background-color: #D3D3D4;
+}
+ .address {
+     padding: 8px 0 0 20px;
+     color: #4A4A4A;
+     width: 185px;
+}
+ .address h1 {
+     font-weight: 500;
+}
+ .address h3 {
+     font-weight: 300;
+}
+ .addressOut {
+     padding: 8px 0 0 8px;
+     color: #4A4A4A;
+     width: 160px;
+}
+ .addressOut h1 {
+     font-weight: 300;
+}
+ .addressReroute {
+     padding: 8px 0 0 8px;
+     color: #4A4A4A;
+     width: 180px;
+}
+ .addressReroute h1 {
+     font-weight: 300;
+}
+ .appBar {
+     width: 100%;
+     height: 56px;
+     background-color: #3F51B5;
+     padding: 18px 16px;
+     font-size: 1.20em;
+     font-weight: 500;
+     color: #FFFFFF;
+     display: inline-flex;
+}
+ .appBar h3 {
+     padding-right: 58px;
+     padding-left: 36px;
+     width: auto;
+     font-weight: 400;
+}
+ .bus {
+     float: right;
+     padding: 19px 0 19px 16px;
+     color: #4A4A4A;
+     font-size: 1.4em;
+}
+ .container {
+     margin: auto;
+     width: 360px;
+     height: 640px;
+     background-color: #F1F2F6;
+}
+ .content {
+     display: inline-flex;
+     font-size: 1em;
+}
+ .depart {
+     padding: 19px 33px;
+     font-size:1.12em;
+     color: #303F9F;
+     font-weight: 400;
+     width: 240px;
+}
+ div.row:hover {
+     background-color: #f1f1f5;
+}
+ hr {
+     border: 1px solid #E8EAF6;
+     margin: 16px 0 0 0;
+}
+ .list{
+     background-color: #FFFFFF;
+}
+ .line {
+     padding: 18px 0 20px 16px;
+     font-size: 1em;
+     font-weight: 500;
+     color: #4A4A4A;
+     width: 50px;
+}
+ .lineOut {
+     padding: 8px 0 0 16px;
+     font-size: 1em;
+     font-weight: 500;
+     color: #4A4A4A;
+     width: 50px;
+}
+ .lineReroute {
+     padding: 8px 0 0 16px;
+     font-size: 1em;
+     font-weight: 500;
+     color: #4A4A4A;
+     width: 50px;
+}
+ .menu {
+     background-color: #E8EAF6;
+     box-shadow: 0 2px 4px #CED1E4;
+     display: inline-flex;
+}
+ .navbar {
+     height: 48px;
+     width: 360px;
+}
+ .reload {
+     color: #303F9F;
+     padding: 19px 16px 19px 48px;
+}
+ .row {
+     width: 100%;
+     height: 54px;
+     border-bottom: 2px solid #E8EAF6;
+     line-height: 1.2em;
+}
+ .statusBar {
+     width: 360px;
+     height: 24px;
+     background-color: #303F9F;
+     display: inline-flex;
+}
+ .status-content {
+     padding: 5px 15px 5px 255px;
+}
+ .service {
+     background-color: #FFFFFF;
+     margin-top: 32px;
+
+}
+ .time {
+     padding: 8px 16px;
+     color: #4A4A4A;
+     font-weight: 300;
+}
+ .timeOut {
+     padding: 8px 16px 0 0;
+     color: #4A4A4A;
+     font-weight: 300;
+     width: 150px;
+}
+ .timeReroute {
+     padding: 8px 16px 16px 32px;
+     color: #4A4A4A;
+     font-weight: 300;
+     width: 150px;
+}
+ .title {
+     padding: 16px 0 6px 16px;
+     font-size:1.12em;
+     color: #4A4A4A;
+     font-weight: 400;
+}
