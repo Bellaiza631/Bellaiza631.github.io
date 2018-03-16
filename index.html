@@ -14,47 +14,58 @@
 <body>
     <section class="container">
         <nav class="stop-info">
-            <!--<div class="statusBar" aria-hidden="true">
-                <div class="status-content">
-                    <img src="images/status-bar-contents.svg" alt="status">
-                </div>
-            </div>-->
             <div class="appBar">
-                <div><img src="images/arrow.svg" alt="Arrow back"></div>
-                <h3>Washington and State St</h3>
-                <div><img src="images/dots.svg" alt="Options"></div>
+                <ul>
+                  <li class="arrow-back"><img src="images/arrow.svg" alt="Arrow back"></li>
+                  <li><h1>Washington and State St</h1></li>
+                  <li class="option-dots"><img src="images/dots.svg" alt="Options"></li>
+                </ul>
             </div>
         </nav>
         <section class="list">
-            <div class="row menu">
-                <div class="bus">
-                    <i class="fas fa-bus"></i>
-                </div>
-                <div class="content">
-                    <div class="depart">
-                        <h2>Next Departures</h2>
-                    </div>
-                </div>
-                <div class="reload">
-                    <img src="images/reload.svg" alt="Reload">
-                </div>
+            <div class="menu">
+                <ul>
+                  <li class="bus"><i class="fas fa-bus"></i></li>
+                  <li class="depart"><h2>Next Departures</h2></li>
+                  <li class="reload"><img src="images/reload.svg" alt="Reload"></li>
+                </ul>
             </div>
             <div class="row">
-                <div class="content">
-                    <div class="line">
-                        <h2>60</h2>
-                    </div>
-                    <div class="address">
-                        <h1>Eastbound</h1>
-                        <h3>Randolph/Harbor Dr</h3>
-                    </div>
-                    <div class="time">
-                        <h3>10:05am</h3>
-                        <h3>Every 20 min</h3>
-                    </div>
-                </div>
+                 <ul>
+                   <li class="line"><h1>60</h1></li>
+                   <li>
+                     <ul class="address">
+                       <li><h1>Eastbound</h1></li>
+                       <li><h3>Randolph/Harbor Dr</h3></li>
+                     </ul>
+                   </li>
+                   <li>
+                     <ul class="time">
+                       <li><h3>10:05am</h3></li>
+                       <li><h3>Every 20 min</h3></li>
+                     </ul>
+                   </li>
+                 </ul>
             </div>
             <div class="row">
+              <ul>
+                <li class="line"><h1>124</h1></li>
+                <li>
+                  <ul class="address">
+                    <li><h1>Eastbound</h1></li>
+                    <li><h3>Navy Pier</h3></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="time">
+                    <li><h3>10:15am</h3></li>
+                    <li><h3>Every 10 min</h3></li>
+                  </ul>
+                </li>
+              </ul>
+
+            </div>
+            <!--<div class="row">
                 <div class="content">
                     <div class="line">
                         <h2>124</h2>
@@ -166,7 +177,7 @@
                 <div class="timeReroute">
                     <h3>N/A</h3>
                 </div>
-            </div>
+            </div>-->
         </section>
         <!--<div class="navbar" aria-hidden="true">
             <div>
