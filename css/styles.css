@@ -128,13 +128,14 @@
      border-bottom: 2px solid #E8EAF6;
      line-height: 1.2em;
      font-size: 1em;
+     display: inline-flex;
 }
 
-.row ul{
+/*.row ul{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
+}*/
  .statusBar {
      width: 360px;
      height: 24px;
